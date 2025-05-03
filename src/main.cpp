@@ -1,6 +1,6 @@
 #include "../include/Game.hpp"
 
-int main(void)
+int main(int ac, char **av)
 {
     Game runestone;
     

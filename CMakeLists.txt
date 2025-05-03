@@ -10,7 +10,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(SRCS src/main.cpp src/Game.cpp)
 include_directories("include")
 
-find_package(RAYLIB REQUIRED)
+# find_package(RAYLIB REQUIRED)
 
 add_executable(Runestone ${SRCS})
 
